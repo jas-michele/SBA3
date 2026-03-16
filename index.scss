@@ -41,5 +41,9 @@ p {
 
 .middle-screen img{
     margin-left: -120px;
+
+    @media (max-width: 768px){
+        margin-left: 0;
+    }
 }
 
